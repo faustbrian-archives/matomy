@@ -1,7 +1,7 @@
 {
     "name": "faustbrian/matomy-php-client",
     "description": "A Matomy Client for PHP",
-    "keywords": ["api", "faustbrian", "faustbrian-matomy", "matomy", "Brian Faust", "faustbrian"],
+    "keywords": ["api", "matomy", "Brian Faust", "faustbrian"],
     "license": "MIT",
     "authors": [{
         "name": "Brian Faust",
