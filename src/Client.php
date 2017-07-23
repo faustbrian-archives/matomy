@@ -34,7 +34,7 @@ class Client
     public function __construct(string $userId, string $key)
     {
         $this->userId = $userId;
-        $this->key    = $key;
+        $this->key = $key;
     }
 
     /**
