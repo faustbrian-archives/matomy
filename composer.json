@@ -1,13 +1,19 @@
 {
-    "name": "faustbrian/matomy-php-client",
+    "name": "plients/matomy",
     "description": "A Matomy Client for PHP",
-    "keywords": ["api", "http", "matomy"],
+    "keywords": [
+        "api",
+        "http",
+        "matomy"
+    ],
     "license": "MIT",
-    "authors": [{
-        "name": "Brian Faust",
-        "email": "hello@brianfaust.me",
-        "homepage": "https://brianfaust.me"
-    }],
+    "authors": [
+        {
+            "name": "Brian Faust",
+            "email": "hello@basecode.sh",
+            "homepage": "https://basecode.sh"
+        }
+    ],
     "require": {
         "php": "^7.1",
         "faustbrian/http": "^1.0"
@@ -18,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "BrianFaust\\Matomy\\": "src/"
+            "Plients\\Matomy\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "BrianFaust\\Tests\\Matomy\\": "tests"
+            "Plients\\Tests\\Matomy\\": "tests"
         }
     },
     "config": {
